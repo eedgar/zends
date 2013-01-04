@@ -2,8 +2,8 @@
 #
 
 default['zends']['arch'] = kernel['machine'] =~ /x86_64/ ? "x86_64" : "x86"
-default['zends']['centos5']['x86_64']['url'] = "http://10.0.2.2:8080/zends-5.5.15-1.r51229.el5.x86_64.rpm"
-default['zends']['centos6']['x86_64']['url'] = "http://10.0.2.2:8080/zends-5.5.15-1.r51229.el6.x86_64.rpm"
+default['zends']['centos5']['x86_64']['url'] = "http://artifacts.zenoss.loc/releases/4.2.3/1695/zends/zends-5.5.25a-1.r64630.el5.x86_64.rpm"
+default['zends']['centos6']['x86_64']['url'] = "http://artifacts.zenoss.loc/releases/4.2.3/1695/zends/zends-5.5.25a-1.r64630.el6.x86_64.rpm"
 default['zends']['centos5']['x86']['url'] = "http://10.0.2.2:8080/zends-5.5.15-1.r51229.el5.x86.rpm"
 default['zends']['centos6']['x86']['url'] = "http://10.0.2.2:8080/zends-5.5.15-1.r51229.el6.x86.rpm"
 
