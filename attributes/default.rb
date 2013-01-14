@@ -8,7 +8,7 @@ default['zends']['centos5']['x86']['url'] = "http://10.0.2.2:8080/zends-5.5.15-1
 default['zends']['centos6']['x86']['url'] = "http://10.0.2.2:8080/zends-5.5.15-1.r51229.el6.x86.rpm"
 
 
-set['zends']['grants_path']                 = "/etc/zends_grants.sql"
+node['zends']['grants_path']                 = "/etc/zends_grants.sql"
 node['zends']['zends_bin']                  = "/opt/zends/bin/mysql"
 node['zends']['zendsadmin_bin']                  = "/opt/zends/bin/mysqladmin"
 
